@@ -1,4 +1,8 @@
-# MyCalculator
+# PROJECTS FOR INTERNSHIP 
+some of most important projects for internship purposes 
+--------------------------------------
+## 1.Calculator 
+Some of my serious projects for internship purpose 
 > ### Hello everyone !, here i had made my first calculator using **HTML,CSS and JavaScript.** 
 > #### Here is the link [https://pursottam6003.github.io/project-internship/]( https://pursottam6003.github.io/project-internship/)
 > #### This project is my 3rd project for web development and hope you all like this project 
@@ -7,5 +11,10 @@
 > #### * Its a simple calculater you may perform simple operations like addition,multiplication,division,substraction.
 > ##### Hope to upgrade this project in future 
 > ##### Thank You 
+
+
+## 2.To-do-list 
+
+
 
 
