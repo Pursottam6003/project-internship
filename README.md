@@ -1,4 +1,4 @@
-# Project-Internship
+# MyCalculator
 > ### Hello everyone !, here i had made my first calculator using **HTML,CSS and JavaScript.** 
 > #### Here is the link [https://pursottam6003.github.io/project-internship/]( https://pursottam6003.github.io/project-internship/)
 > #### This project is my 3rd project for web development and hope you all like this project 
