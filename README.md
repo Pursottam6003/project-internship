@@ -1,5 +1,5 @@
 # PROJECTS FOR INTERNSHIP 
-some of most important projects for internship purposes 
+| Some of most important projects for internship purposes | 
 --------------------------------------
 ## 1.Calculator 
 Some of my serious projects for internship purpose 
