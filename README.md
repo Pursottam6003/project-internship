@@ -1,6 +1,12 @@
 # PROJECTS FOR INTERNSHIP 
-| Some of most important projects for internship purposes | 
---------------------------------------
+Some of most important projects for internship purposes 
+----------------------------------------------------------------------------------------------------------------------------------------------
+|S.n|         Project Name        |                            Concepts                        |      Languages Used    |        Source       |
+|:-:|:---------------------------:|:----------------------------------------------------------:|:----------------------:|:-------------------:
+| 1.|       MyCalculator          |   Implementation JavaScript functions with HTML and CSS    |   HTML CSS and JS      |  [Calculator](https://pursottam6003.github.io/project-internship/)
+| 2.|        To-do-list           |   Java Program implemented To-do-list memo application     |      Java and Node.js  |   [To-do-list](https://github.com/Pursottam6003/project-internship/blob/main/To-do-list/Task.java)               |                      
+ 
+
 ## 1.Calculator 
 Some of my serious projects for internship purpose 
 > ### Hello everyone !, here i had made my first calculator using **HTML,CSS and JavaScript.** 
