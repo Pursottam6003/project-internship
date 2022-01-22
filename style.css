@@ -1,39 +1,155 @@
+/* selecting the body property to border box so that we will get RWD design */
+
+body
+*{
+    box-sizing: border-box;   
+}
+
 .container{
     text-align: center;
-    margin-top:23px
+    margin-top:1rem;
+    opacity: 0;
 }
 
 table{
     margin: auto;
 }
-
+/* class that display information */
 input{
-    border-radius: 21px;
+    
     border: 5px solid #244624;
-    font-size:34px;
-    height: 65px;
-    width: 456px;
+    background-color: rgb(221, 230, 142);
+    font-size:3rem;
+    height: 4rem;
+    width: 22rem;
 }
-
+/* buttons styling  */
+/* changing the button property */
 button{
-    border-radius: 20px;
-    font-size: 30px;
-    background: #978fa0;
-    width: 90px;
-    height: 50px;
-    margin: 6px;
+    border-radius: 1.3rem;
+    font-size: 1.5rem;
+    background: #cbc9ce;
+    width: 4.5rem;
+    height: 3rem;
+    margin: 0.5rem;
 }
-
+/* container for the calculator */
 .calculator{ 
-    border: 4px solid #13695d;
-    background-color: #38b918;
+    border: 4px solid #020202;
+    background-color: #110f13;
     padding: 23px;
     border-radius: 53px;
     display: inline-block;
     
+    
 }
 
-h1{
-    font-size: 23px;
+body {
+    
     font-family: 'Courier New', Courier, monospace;
+ 
 }
+
+body
+{
+    background-image: url('calculatorbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+}
+
+legend
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 500;
+}
+/* changing the button property */
+
+#clear
+{
+    background-color: red;
+    color: white;
+}
+
+#equals 
+{
+    background-color: green;
+    color:white;
+}
+/* increses the height to show real touch   */
+#numbers
+{
+    background-color: #8f8f8f;
+}
+
+#numbers:focus
+{
+    background-color: cornflowerblue;
+    color:white;
+    transition: 0.3s;
+    transform-style: preserve-3d;
+}
+#numbers:active 
+{
+    box-shadow:0 0.3rem rgb(141, 141, 141);
+    transform:translateY(0.5rem);
+}
+#oper:active
+{
+    box-shadow: 0 0.3rem #666;
+    transform: translateY(0.5rem);
+}
+
+#oper:focus 
+{
+    background-color: rgb(184, 134, 11);
+    transition:0.3s;
+}
+ 
+#add
+{
+    height:5rem;
+}
+
+
+#add:focus 
+{
+    background-color:  rgb(184, 134, 11);
+    transition: 0.3s;
+} 
+
+/* start button styling  */
+#start
+{
+    font-size: small;
+    background-color: purple;
+    color: #ffff;
+    width: 60px;
+    height: 30px;
+    font-weight: 500;
+}
+
+/* flase button just to help user */
+kbd 
+{
+    width: 2rem;
+    height: 3rem;
+    background-color: #8f8f8f;
+    color:#ffff;
+}
+
+.first 
+{
+    width: fit-content;
+    height: auto;
+    margin:auto;
+    text-align: center;
+    color: #ffff;
+    padding: 2px;
+    border-radius: 1rem;
+    background-color: rgb(82, 212, 77);
+}
+ 
+ 

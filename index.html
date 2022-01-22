@@ -10,47 +10,55 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Calculator By Pursottam Sah NIT Arunachal Pradesh</h1>
+
+    <div class="first">
+        <p>
+            <h1>Calculator By Pursottam Sah NIT Arunachal Pradesh</h1>
+            Click <kbd>start</kbd> button to start the 'Virtual Pursottam Calculator' <button id="start">Start</button>
+        </p>
+    </div>
+
+    <div class="container" id="contain">
 
         <div class="calculator">
+            <legend>Pursottam Calculator</legend>
             <input type="text" name="screen" id="screen">
             <table>
                 <tr>
-                    <td><button>(</button></td>
-                    <td><button>)</button></td>
-                    <td><button>C</button></td>
-                    <td><button>%</button></td>
+                    <td><button id="oper">ln</button></td>
+                    <td><button id="oper">Sqrt</button></td>
+                    <td><button id="oper">%</button></td>
+                    <td><button id="clear">C</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>X</button></td>
+                    <td><button id="numbers">7</button></td>
+                    <td><button id="numbers">8</button></td>
+                    <td><button id="numbers">9</button></td>
+                    <td><button id="oper">X</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>-</button></td>
+                    <td><button id="numbers">4</button></td>
+                    <td><button id="numbers">5</button></td>
+                    <td><button id="numbers">6</button></td>
+                    <td><button id="oper" >-</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>+</button></td>
+                    <td><button id="numbers">1</button></td>
+                    <td><button id="numbers">2</button></td>
+                    <td><button id="numbers">3</button></td>
+                    <td><button id="add">+</button></td>
                 </tr>
                 <tr>
-                    <td><button>0</button></td>
-                    <td><button>.</button></td>
-                    <td><button>/</button></td>
-                    <td><button>=</button></td>
+                    <td><button >0</button></td>
+                    <td><button id="oper">.</button></td>
+                    <td><button id="oper">/</button></td>
+                    <td><button id="equals">=</button></td>
                 </tr>
             </table>
         </div>
     </div>
 
 </body>
-<script src="index.js"></script>
+<script src="index.js" defer></script>
 
 </html>
